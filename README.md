@@ -2,14 +2,14 @@
 This script is used to fit the model by Ballauf et al. (https://doi.org/10.1021/jp101125j) to the kinetics data for 4-nitrophenol reduction with sodium borohydride catalyzed by metal nanoparticles 
 
 # Guidelines for the input data for the script:
--- The directory with the script should contain two subdirectories named "raw" and "model"
--- The subdirectory "raw" contains files that a user wants to process
--- The subdirectory "model" contains files that the script produces while processing the corresponding files from "raw"
--- Names of files in "raw" should end with "_SS_raw.txt" or "_SS_raw.TXT" to be recognised by the script and get processed (SS stands for steady state).
+- The directory with the script should contain two subdirectories named "raw" and "model"
+- The subdirectory "raw" contains files that a user wants to process
+- The subdirectory "model" contains files that the script produces while processing the corresponding files from "raw"
+- Names of files in "raw" should end with "_SS_raw.txt" or "_SS_raw.TXT" to be recognised by the script and get processed (SS stands for steady state).
    Also, the file name is expected to start with sX where X is one or several digits to denote the sample.
    Therefore, the file name should have the following format: "sXX(any characters)_SS_raw.txt"
--- The corresponding file with the results of processing is saved in "model" and it has the same name as the original data file but ends with "_model.txt"
--- The data files in "raw" should be formatted according to the template:
+- The corresponding file with the results of processing is saved in "model" and it has the same name as the original data file but ends with "_model.txt"
+- The data files in "raw" should be formatted according to the template:
 	- Block 1: parameter name and its value separated by a tab or a space	
 		- The user doesn't have to set the parameters in the file but it's the best way to change them. If they are not set in the file, the default values from the script are used.
 		- The parameters used:				
