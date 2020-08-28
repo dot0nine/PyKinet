@@ -1,12 +1,11 @@
 #-------------------------------------------------------------------------------
 # Name:        PyKinet
-# Purpose:     to process kinetics curves of nitrophenol reduction into aniline
-#              on gold nanoparticles using the model published by Ballauf
-#              dx.doi.org/10.1021/jp5060606
+# Purpose:     This script is used to fit the model by Ballauf et al.
+#              (https://doi.org/10.1021/jp101125j) to the kinetics data
+#              for 4-nitrophenol reduction with sodium borohydride catalyzed
+#              by metal nanoparticles
 #
 # Author:      Andrey Romanyuk
-#
-# Copyright:   (c) Andrey Romanyuk 2020
 #-------------------------------------------------------------------------------
 
 
